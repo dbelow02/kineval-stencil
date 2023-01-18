@@ -21,9 +21,10 @@ void Fetch_Controller::Laser_Scan_Callback(const sensor_msgs::LaserScan::ConstPt
     If the minimum scan in this direction is greater than 1m, drive forward. 
     Otherwise, turn left. 
     */
-    std::double range = msg_laser_scan.angle_max - msg_laser_scan.angle_min;
+    //std::double range = msg_laser_scan.angle_max - msg_laser_scan.angle_min;
     //662 elts if this method doesnt work.
-    std::double size = range / msg_laser_scan.angle_increment;
+    //std::double size = range / msg_laser_scan.angle_increment;
+    std::double size = 662;
     std::double min = 50;
     for(std::int i = (size/2)-60; i < (size/2)+60; ++i){
         if(msg_laser_scan.ranges[i] < min){
@@ -49,7 +50,7 @@ void Fetch_Controller::Laser_Scan_Callback(const sensor_msgs::LaserScan::ConstPt
         move.linear.z = 0;
         move.angular.x = 0;
         move.angular.y = 0;
-        move.angular.z = -1; //not sure if this is right or left
+        move.angular.z = 1; //not sure if this is right or left
 
         publisher_.publish(move);
     }
