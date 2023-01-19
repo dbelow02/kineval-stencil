@@ -50,7 +50,7 @@ void Fetch_Controller::Laser_Scan_Callback(const sensor_msgs::LaserScan::ConstPt
         move.linear.z = 0;
         move.angular.x = 0;
         move.angular.y = 0;
-        move.angular.z = 1; //not sure if this is right or left
+        move.angular.z = -1; //not sure if this is right or left
 
         publisher_.publish(move);
     }
