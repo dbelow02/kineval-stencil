@@ -1,4 +1,4 @@
-//CI grader generates report at 18-01-2023-21-03-07
+//CI grader generates report at 19-01-2023-08-58-58
 grade = 
 {
   "dbelow": {
@@ -15,10 +15,8 @@ grade =
         ]
       },
       "ROS Pub/Sub": {
-        "status": "PENDING",
-        "comments": [
-          "Passing 0 of 3 tests"
-        ]
+        "status": "DUE",
+        "comments": "Passing 0 out of 3 tests. Can get partial credit after due date"
       },
       "PathPlan_Heap": {
         "status": "PENDING",
