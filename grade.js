@@ -1,4 +1,4 @@
-//CI grader generates report at 19-01-2023-08-58-58
+//CI grader generates report at 20-01-2023-07-39-41
 grade = 
 {
   "dbelow": {
@@ -9,9 +9,9 @@ grade =
     "repository": "dbelow02/kineval-stencil",
     "assignments": {
       "Honor": {
-        "status": "PENDING",
+        "status": "CHECK",
         "comments": [
-          ""
+          "comment: honor code certified"
         ]
       },
       "ROS Pub/Sub": {
