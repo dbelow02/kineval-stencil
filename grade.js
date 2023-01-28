@@ -1,4 +1,4 @@
-//CI grader generates report at 27-01-2023-19-33-43
+//CI grader generates report at 28-01-2023-08-37-04
 grade = 
 {
   "dbelow": {
@@ -15,10 +15,8 @@ grade =
         ]
       },
       "ROS Pub/Sub": {
-        "status": "PENDING",
-        "comments": [
-          "Passing 0 of 3 tests"
-        ]
+        "status": "DUE",
+        "comments": "Passing 0 out of 3 tests. Can get partial credit after due date"
       },
       "PathPlan_Heap": {
         "status": "PENDING",
@@ -28,43 +26,43 @@ grade =
         "test results": {
           "Test 0": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 6551 7988 4166 8918 1632 6724 844 3757 4627 2367 5739 630 5905 9049 3349 5936 6077 6836 7325 9803 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 4358 2535 8813 8294 1239 3967 7608 6144 8107 365 1011 6092 6564 1115 9227 3782 9304 5475 325 3206 \\n'"
           },
           "Test 1": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 6401 9663 6734 7338 8498 8883 3136 1930 4907 451 7231 6831 1195 4943 8023 5611 8259 5825 1756 6294 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 5764 9653 4910 2721 4558 9177 6529 9784 7018 6731 5246 9805 740 7319 9560 7738 6028 3629 6716 5283 \\n'"
           },
           "Test 2": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 2233 1318 7128 2750 6279 2766 1217 2523 981 5092 52 1300 5215 453 8781 9911 557 9625 1427 5780 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 6336 8944 2293 6081 6871 9954 1707 3853 4216 3021 860 1485 2239 7936 5006 8048 4993 3288 1523 4692 \\n'"
           },
           "Test 3": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 6171 2911 4949 6895 173 139 4350 745 3221 5841 4072 668 4042 2630 7683 5343 5556 4755 4797 6240 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 6616 291 7898 2655 7018 3901 6976 7403 3609 3083 1370 3536 3400 6483 6319 1557 3927 6895 4514 383 \\n'"
           },
           "Test 4": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 5490 9256 9064 1405 1642 5323 219 1290 7387 5734 1629 8371 171 2478 6656 2394 4797 4671 5359 6430 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 5218 6735 7020 1030 7970 6164 5726 2673 1612 6154 5834 3170 3021 4613 2905 8234 20 7322 9944 7599 \\n'"
           },
           "Test 5": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 5855 1783 4167 884 3727 1492 334 9614 2372 1592 3803 5343 9369 9282 9403 5955 5951 2029 7670 1 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 3996 8589 2925 5776 6732 5061 2711 3576 6359 591 2284 6864 3203 7453 3961 6567 3552 5487 8174 4705 \\n'"
           },
           "Test 6": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 3557 9595 3720 5349 4555 310 3357 8671 423 8364 5452 5821 1538 1370 1720 1733 8055 8979 7014 2895 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 3628 2326 9962 3746 3369 4660 9843 7837 104 1077 9280 8854 5209 7488 7909 6839 2082 7221 5343 1111 \\n'"
           },
           "Test 7": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 2239 61 3386 5300 2700 756 1705 2935 3998 4479 8060 2220 1675 9148 9641 9276 2396 5256 1694 9869 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 1872 9017 3843 9870 2443 5240 8707 6747 6927 854 2987 1551 4937 7440 1894 1965 4872 2927 6829 9573 \\n'"
           },
           "Test 8": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 7066 452 6253 7450 2974 396 4973 3451 2833 9579 6178 8395 6283 1660 3276 7937 4190 6804 5579 3708 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 8319 7317 1083 1560 5004 8094 2418 2823 2079 5720 5893 5182 4329 3973 8560 9265 6113 7522 7517 2186 \\n'"
           },
           "Test 9": {
             "Status": "Failed",
-            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 1159 3971 1998 4013 5371 6833 5436 5727 4020 1663 8761 4380 7052 3287 4949 81 2748 5291 558 430 \\n'"
+            "Stderr": "b'[ERROR] wrong element when insert\\n\\nError when processing: 8914 1185 3037 8154 1523 310 2920 5869 9835 6376 6809 6745 3666 2907 8276 9818 1506 2175 842 5 \\n'"
           }
         }
       },
