@@ -23,12 +23,12 @@
 
 
 // create empty object 
-minheaper = {}; 
+minheaper = {};
 
 // define insert function for min binary heap
 function minheap_insert(heap, new_element) {
-
-    // STENCIL: implement your min binary heap insert operation
+    heap[heap.length] = new_element;
+    heapifybottomup(heap, heap.length - 1); //switch to 2?
 }
 
 // assign insert function within minheaper object
@@ -40,16 +40,51 @@ minheaper.insert = minheap_insert;
 
 // define extract function for min binary heap
 function minheap_extract(heap) {
-
-    // STENCIL: implement your min binary heap extract operation
+    root = heap[0]; //might want to return this?
+    last = heap[heap.length-1];
+    heap[0] = last;
+    heap.length = heap.length - 1;
+    heapifytopdown(heap, heap.length, 0);
+    return root;
 }
 
 // assign extract function within minheaper object
 
-    // STENCIL: ensure extract method is within minheaper object
+minheaper.extract = minheap_extract;
 
 
+function heapifybottomup(arr, i){
+    var parent = Math.floor((i-1)/2);
+    if(parent >= 0){
+        if(arr[i] < arr[parent]){
+            var temp = arr[parent];
+            arr[parent] = arr[i];
+            arr[i] = temp;
+            heapifybottomup(arr, parent);
+        }
+    }
+    return;
+}
 
+function heapifytopdown(arr, n ,i){
+    smallest = i;
+    leftchild = (i*2) + 1;
+    rightchild = (i*2) + 2;
+
+    if(leftchild < n && arr[leftchild] < arr[smallest]){
+        smallest = leftchild;
+    }
+    if(rightchild < n && arr[rightchild] < arr[smallest]){
+        smallest = rightchild;
+    }
+    if(smallest != i){
+        temp = arr[smallest];
+        arr[smallest] = arr[i];
+        arr[i] = temp;
+        heapifytopdown(arr, n, smallest);
+    }
+    return;
+}
 
 
 
